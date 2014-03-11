@@ -2,6 +2,7 @@ source 'https://rubygems.org'
 
 gem 'railties', '4.0.3'
 gem 'rails', '4.0.3'
+gem 'bcrypt-ruby', '3.1.2'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
