@@ -9,18 +9,18 @@ class UsersController < ApplicationController
 
    def create
     @user = User.new(user_params)
+    p @user
+    p "================================================"
     if @user.save
+      flash[:success] = "Welcome to the Sample App!"
       render 'show'
     else
       render 'new'
     end
   end
 
-  private
-
     def user_params
-      params.require(:user).permit(:name, :email, :password,
-                                   :password_confirmation)
+      params.require(:user).permit(:name, :email, :password_digest)
     end
 end
 
