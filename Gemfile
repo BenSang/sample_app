@@ -3,6 +3,9 @@ source 'https://rubygems.org'
 gem 'railties', '4.0.3'
 gem 'rails', '4.0.3'
 gem 'bcrypt-ruby', '3.1.2'
+gem 'bootstrap-sass', '2.3.2.0'
+# gem 'devise', '3.2.3'
+# gem 'protected_attributes', '1.0.7'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
