@@ -7,7 +7,7 @@ gem 'bcrypt-ruby', '3.1.2'
 gem 'bootstrap-sass', '2.3.2.0'
 gem 'will_paginate', '3.0.4'
 gem 'bootstrap-will_paginate', '0.0.9'
-# gem 'faker', '1.1.2'
+gem 'faker', '1.3.0'
 # gem 'devise', '3.2.3'
 # gem 'protected_attributes', '1.0.7'
 
